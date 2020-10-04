@@ -34079,6 +34079,14 @@ var map = {
 		"./resources/js/Pages/About.vue",
 		0
 	],
+	"./Error": [
+		"./resources/js/Pages/Error.vue",
+		2
+	],
+	"./Error.vue": [
+		"./resources/js/Pages/Error.vue",
+		2
+	],
 	"./Home": [
 		"./resources/js/Pages/Home.vue",
 		1
