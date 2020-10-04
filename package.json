@@ -24,6 +24,7 @@
         "@inertiajs/inertia": "^0.3.6",
         "@inertiajs/inertia-vue": "^0.2.4",
         "@inertiajs/progress": "^0.1.2",
+        "tailwindcss": "^1.8.10",
         "vue": "^2.6.12"
     }
 }

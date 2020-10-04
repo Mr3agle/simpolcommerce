@@ -17,6 +17,28 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   components: {
@@ -82,13 +104,29 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("layout", { attrs: { title: "Welcome" } }, [
+  return _c("layout", { attrs: { title: "About" } }, [
     _c("h2", [_vm._v("About page")]),
     _vm._v(" "),
     _c("p", [
       _vm._v(
         "Hello " + _vm._s(_vm.name) + ", welcome to your first Inertia app!"
       )
+    ]),
+    _vm._v(" "),
+    _c("div", { staticClass: "bg-gray-200 p-4" }, [
+      _c("img", {
+        staticClass: "float-right ml-4 my-2 h-32",
+        attrs: {
+          src:
+            "https://images.unsplash.com/photo-1459262838948-3e2de6c1ec80?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80"
+        }
+      }),
+      _vm._v(" "),
+      _c("p", [
+        _vm._v(
+          "\n            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam\n            venenatis et lorem sit amet vehicula. Etiam vel nibh nec nisi\n            euismod mollis ultrices condimentum velit. Proin velit libero,\n            interdum ac rhoncus sit amet, pellentesque ac turpis. Quisque ac\n            luctus turpis, vel efficitur ante. Cras convallis risus vel\n            vehicula dapibus. Donec eget neque fringilla, faucibus mi quis,\n            porttitor magna. Cras pellentesque leo est, et luctus neque\n            rutrum eu. Aliquam consequat velit sed sem posuere, vitae\n            sollicitudin mi consequat. Mauris eget ipsum sed dui rutrum\n            fringilla. Donec varius vehicula magna sit amet auctor. Ut\n            congue vehicula lectus in blandit. Vivamus suscipit eleifend\n            turpis, nec sodales sem vulputate a. Curabitur pulvinar libero\n            viverra, efficitur odio eu, finibus justo. Etiam eu vehicula\n            felis.\n        "
+        )
+      ])
     ])
   ])
 }
